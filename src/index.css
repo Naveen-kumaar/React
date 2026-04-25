@@ -1,2 +1,16 @@
 
-
+.product{
+    background-color: rgb(250, 245, 180);
+    max-width: 200px;
+    height: 300px;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.product img{
+    width: 200px;
+    height: 200px;
+}

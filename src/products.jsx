@@ -1,9 +1,12 @@
+import image from "./assets/redlandbaler.png"
+
 const product = "Balers"
-function Products(){
+function Products(props){
     return(
-        <div>
-            <img src="red" alt="" />
-            <h2>Redlands {product}</h2>
+        <div className="product">
+            <img src={props.image} alt="Redlands Baler"/>
+            <h2>{props.name}</h2>
+            <p>{props.description}</p>
         </div>
     )
 }
