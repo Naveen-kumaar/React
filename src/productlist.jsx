@@ -18,10 +18,16 @@ function Productlist() {
         name:"Rotavator",
         image:image3,
         discription:"a type of agricultural machinery"
+    },
+    {
+        name:"Rotavator",
+        image:image3,
+        discription:"a type of agricultural machinery"
     }
 ]
-const productslist = products.map((product)=>
-    <Products 
+const productslist = products.map((product,index)=>
+    <Products  
+        key={index}
         name={product.name}
         image={product.image}
         description={product.discription}
